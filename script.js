@@ -15,15 +15,27 @@ console.log(timeNumber)
 //    return (timeNumber);
 // }
 
-if (timeNumber < timeActual) {
+// if (timeNumber < timeActual) {
    
-}else if (timeNumber === timeActual) {
+// }else if (timeNumber === timeActual) {
 
 
-}else (timeNumber > timeActual); {
+// }else (timeNumber > timeActual); {
 
 
-};
+// };
 
 
 
+var taskInputEl = $('#formGroupExampleInput')
+
+function handleFormSubmit(event) {
+    event.preventDefault();
+
+    // var task = taskInputEl.val().trim();
+    // printProjectData(task);
+    $("btn btn-danger").addEventListener("click")
+    localStorage.setItem(task);
+}
+
+const task = localStorage.getItem(taskInputEl)
